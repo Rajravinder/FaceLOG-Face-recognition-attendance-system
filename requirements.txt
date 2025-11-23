@@ -1,0 +1,9 @@
+opencv-python
+numpy
+pandas
+streamlit
+streamlit-autorefresh
+scikit-learn
+matplotlib
+seaborn
+pywin32
