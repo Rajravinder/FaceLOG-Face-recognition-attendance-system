@@ -12,38 +12,38 @@ FaceLOG is a Python plus OpenCV based attendance system that recognises faces vi
 - Direct webcam script for capturing attendance (`test.py`)
 
 ## Project Structure
-add_faces.py - register faces  
-app.py - Streamlit dashboard (To view attendance)
-test.py - webcam attendance + evaluation  
-data/ - saved face encodings + labels + haarcascade  
-Attendance/ - generated CSV logs
+- add_faces.py - register faces  
+- app.py - Streamlit dashboard (To view attendance)
+- test.py - webcam attendance + evaluation  
+- data/ - saved face encodings + labels + haarcascade  
+- Attendance/ - generated CSV logs
 
 ## Installation
-git clone https://github.com/Rajravinder/FaceLOG-Face-recognition-attendance-system.git  
-cd FaceLOG-Face-recognition-attendance-system  
-pip install -r requirements.txt
+- git clone https://github.com/Rajravinder/FaceLOG-Face-recognition-attendance-system.git  
+- cd FaceLOG-Face-recognition-attendance-system  
+- pip install -r requirements.txt
 
-Create folders if missing:
-mkdir data  
-mkdir Attendance
+### Create folders if missing:
+- mkdir data  
+- mkdir Attendance
 
 ## Usage
-Add faces (run once per person):
+- Add faces (run once per person):
 python add_faces.py
 
-Streamlit dashboard:
+- Streamlit dashboard:
 python app.py
 
-Webcam attendance capturing:
+- Webcam attendance capturing:
 python test.py
 
-Attendance CSV files will appear in `Attendance/` automatically:
+- Attendance CSV files will appear in `Attendance/` automatically:
 Attendance_DD-MM-YYYY.csv
 
 ## Tech Stack
-Python • OpenCV • Streamlit • scikit-learn • NumPy • Pandas  
-Model: KNN classifier  
-Detection: Haarcascade
+- Python • OpenCV • Streamlit • scikit-learn • NumPy • Pandas  
+- Model: KNN classifier  
+- Detection: Haarcascade
 
 ## Future Improvements
 - Switch to deep learning face embeddings
